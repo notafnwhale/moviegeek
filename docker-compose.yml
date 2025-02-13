@@ -9,7 +9,7 @@ services:
       - djangonetwork
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=pw1234
+      - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=moviegeeks
   web:
     restart: always
